@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  /* z-index: -4; */
+}
+html{
+  scroll-behavior: smooth;
+}
+:root{
+  --padding-h: 50px;
+  --main-padding: 0 var(--padding-h);
+  --border-radius: 5px;
+  --clr-ac: #C7A22B;
+  --clr-100: white;
+}
+body{
+  background: linear-gradient(90deg, #0D0D0D,#1F1F21); 
+  font-family: Arial, Helvetica, sans-serif;
+}
+section{
+  height: 100vh;
+  color: white;
+}
+.base{
+  padding-top: 120px;
+}
+.breakLine{
+  padding: var(--main-padding);
+  width: calc(100vw - var(--main-padding));
+  display: flex;
+  justify-content: center;
+}
+.breakLine div{
+  background-color: white;
+  height: 1px;
+  width: 100%;
+}

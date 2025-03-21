@@ -1,0 +1,43 @@
+.nav{
+    background-color: white;
+    padding: var(--main-padding);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.showNav{
+    position:fixed;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+}
+
+.navlist{
+    display: flex;
+    gap: 20px;
+}
+.navlink{
+    height: fit-content;
+}
+
+.nav.moble{
+    height: 20px;
+    transition: all 300ms ease-out;
+}
+.nav.moble.expand{
+    height: 240px;
+}
+.nav.moble .showNav{
+    position: relative;
+}
+.nav.moble .navlist{
+    position: absolute;
+    left: 50%;
+    top: 125px;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
