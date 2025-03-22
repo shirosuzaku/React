@@ -11,8 +11,8 @@ const HomePage = () => {
         <ProjectsHome header={"Projects"} />
         <div className="breakLine"><div></div></div>
         <ProjectsHome header={"Blogs"}/>
-        {/* <BlogHome/> */}
-        <CollabHome/>
+        <div className="breakLine"><div></div></div>
+        <CollabHome header={"Collaborators"}/>
     </div>
   )
 }

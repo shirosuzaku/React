@@ -1,7 +1,9 @@
 import React from 'react'
 
 const ScrollItem = ({title,details,uri}) => {
-    let imglink = `./src/assets/${uri}.jpg`;
+    // for working on dev
+    // let imglink = `./src/assets/${uri}.jpg`;
+    let imglink = `./assets/${uri}.jpg`;
     return (
       <div className="scrollitem">
         <div className="img" style={{ backgroundImage: `url("${imglink}")` }} ></div>

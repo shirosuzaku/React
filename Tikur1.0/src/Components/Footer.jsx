@@ -33,10 +33,15 @@ const Footer = () => {
         </div>
 
         <div className="socialList">
-          <img src="/src/assets/youtube.svg" width="40px" height="40px" onClick={()=>{openLink(1)}}/>
+          {/* for dev */}
+          {/* <img src="/src/assets/youtube.svg" width="40px" height="40px" onClick={()=>{openLink(1)}}/>
           <img src="/src/assets/insta.svg" width="40px" height="40px"   onClick={()=>{openLink(2)}}/>
           <img src="/src/assets/linked.svg" width="40px" height="40px"  onClick={()=>{openLink(3)}}/>
-          <img src="/src/assets/tiktok.svg" width="40px" height="40px"  onClick={()=>{openLink(4)}}/>
+          <img src="/src/assets/tiktok.svg" width="40px" height="40px"  onClick={()=>{openLink(4)}}/> */}
+          <img src="/assets/youtube.svg" width="40px" height="40px" onClick={()=>{openLink(1)}}/>
+          <img src="/assets/insta.svg" width="40px" height="40px"   onClick={()=>{openLink(2)}}/>
+          <img src="/assets/linked.svg" width="40px" height="40px"  onClick={()=>{openLink(3)}}/>
+          <img src="/assets/tiktok.svg" width="40px" height="40px"  onClick={()=>{openLink(4)}}/>
         </div>
 
         <p className="date">

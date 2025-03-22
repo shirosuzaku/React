@@ -52,7 +52,9 @@ const Nav = () => {
   return (
     <div ref={nav} className='nav'>
       <div className="logo">
-        <img src="/src/assets/logo.svg"  width="80px" height="80px" alt=""  />
+        {/* for dev */}
+        {/* <img src="/src/assets/logo.svg"  width="80px" height="80px" alt=""  /> */}
+        <img src="/assets/logo.svg"  width="80px" height="80px" alt=""  />
       </div>
       <div ref={navlist} className="navlist">
         <button className="navlink">Services</button>
@@ -61,6 +63,8 @@ const Nav = () => {
         <button className="navlink">Contact</button>
       </div>
       <div className="showNav">
+        {/* for dev */}
+        {/* <img  ref={navbtn}  src="/assets/menu.svg" width="40px" height="40px" alt="" onClick={showNavMoble} /> */}
         <img  ref={navbtn}  src="/src/assets/menu.svg" width="40px" height="40px" alt="" onClick={showNavMoble} />
       </div>
     </div>

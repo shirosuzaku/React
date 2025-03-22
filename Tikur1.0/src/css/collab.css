@@ -1,0 +1,49 @@
+.collabHome{
+    height: 100vh;
+    color: var(--clr-100);
+    padding: var(--main-padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.collabHome h3{
+    font-size: 80px;
+}
+
+.collabHome .collabGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    gap: 4vw;
+
+}
+
+.collabHome .collabGrid .collabImg{
+    justify-self: center;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    border: 2px solid var(--clr-ac);
+    background-size: cover;
+}
+
+@media (max-width: 600px) {
+    .collabHome h3{
+        font-size: 50px;
+    }
+    
+    
+    .collabHome .collabGrid{
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 4vw;    
+    }
+    .collabHome .collabGrid .collabImg{
+        width: 27vw;
+        height: 27vw;
+        border: 2px solid var(--clr-ac);
+    }
+
+}
